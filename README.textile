@@ -1,0 +1,45 @@
+h1. STOPWORDS
+
+h2. REALLY JUST A LIST OF STOPWORDS
+
+Obviously part of something bigger but worth breaking out for reuse. 
+
+h2. USAGE
+
+<pre><code>
+	
+require 'stopwords'
+
+#List all stop words
+Stopwords::STOP_WORDS
+
+#Test to see if a token is a stop word
+Stopwords.is?('and')
+
+=>true
+
+#Ensures a token is both a 'word' and not a stop word
+Stopwords.valid?('vector')
+
+=>true
+
+</code></pre>
+
+h2. SPECS
+
+<pre><code>
+$ rake specs
+</code></pre>
+
+h2. SANITIZE
+
+Not part of the library but you should probably sanitize tokens before using them (if your tokenize doesn't already)
+
+<pre><code>
+SANITIZE_REGEXP = /('|\"|‘|’|\/|\\)/
+text.downcase.gsub(SANITIZE_REGEXP, '')
+</code></pre>
+
+h2. ENDAX
+
+Software Services shop (primarily Ruby) in Brooklyn, NY.
