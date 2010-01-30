@@ -1,6 +1,6 @@
 h1. STOPWORDS
 
-h2. REALLY JUST A LIST OF STOPWORDS
+h2. REALLY JUST A LIST OF STOPWORDS WITH SOME HELPERS
 
 Obviously part of something bigger but worth breaking out for reuse. 
 
