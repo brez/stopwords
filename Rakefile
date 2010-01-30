@@ -11,7 +11,7 @@ end
 
 spec = Gem::Specification.new do |s|
   s.name = 'stopwords'
-  s.version = '0.1'
+  s.version = '0.2'
   s.require_path = 'lib'
   s.description = 'A stopword library'
   s.summary = 'A stopword library'
