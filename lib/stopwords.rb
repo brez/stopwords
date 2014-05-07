@@ -28,7 +28,8 @@ module Stopwords
     'these','without','besides','however','one','they','would','between','i',
     'only','this','yet','beyond','ie','onto','those','you','both','if','or',
     'though','your','but','in','other','through','yours','by','inc','others',
-    'throughout','yourself','can','indeed','otherwise','thru','yourselves'
+    'throughout','yourself','can','indeed','otherwise','thru','yourselves',
+    'other', 'i'
     ]
   TOKEN_REGEXP = /^[a-z]+$|^\w+\-\w+|^[a-z]+[0-9]+[a-z]+$|^[0-9]+[a-z]+|^[a-z]+[0-9]+$/ 
   
